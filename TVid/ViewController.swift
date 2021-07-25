@@ -28,6 +28,8 @@ class ViewController: UIViewController, VideoDetectionHandlerDelegate {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "viewBackground")!)
         detectionHandler.delegate = self
+        posterView.layer.cornerRadius = 10.0
+        matchButton.tintColor = UIColor.systemCyan
     }
     
     @IBAction func matchButtonPressed(_ sender: Any) {
@@ -41,7 +43,7 @@ class ViewController: UIViewController, VideoDetectionHandlerDelegate {
             episode = info
             titleLabel.text = episode?.title
             episodeNumberLabel.text = episode?.episodeNumber
-            timestampLabel.text = "Found match at \(timestamp.description) seconds"
+            timestampLabel.text = "Found at \(timestamp.hour) hours \(timestamp.minute) minutes \(timestamp.second) seconds"
             episodeDescriptionLabel.text = episode?.additionalInfo
             let posterURL = URL(string: episode!.thumbnailURLPath)
             DispatchQueue.global().async {
@@ -58,4 +60,25 @@ class ViewController: UIViewController, VideoDetectionHandlerDelegate {
     }
 
     
+}
+
+extension TimeInterval {
+    var hourMinuteSecondMS: String {
+        String(format:"%d:%02d:%02d.%03d", hour, minute, second, millisecond)
+    }
+    var minuteSecondMS: String {
+        String(format:"%d:%02d.%03d", minute, second, millisecond)
+    }
+    var hour: Int {
+        Int((self/3600).truncatingRemainder(dividingBy: 3600))
+    }
+    var minute: Int {
+        Int((self/60).truncatingRemainder(dividingBy: 60))
+    }
+    var second: Int {
+        Int(truncatingRemainder(dividingBy: 60))
+    }
+    var millisecond: Int {
+        Int((self*1000).truncatingRemainder(dividingBy: 1000))
+    }
 }
