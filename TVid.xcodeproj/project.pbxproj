@@ -15,6 +15,11 @@
 		2A357C5526AD504500CB7ABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A357C5326AD504500CB7ABF /* LaunchScreen.storyboard */; };
 		2A357C6026AD504600CB7ABF /* TVidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A357C5F26AD504600CB7ABF /* TVidTests.swift */; };
 		2A357C6A26AD504600CB7ABF /* TVidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A357C6926AD504600CB7ABF /* TVidUITests.swift */; };
+		2A357C7A26AD50D800CB7ABF /* lundini 04:05:2021.shazamsignature in Resources */ = {isa = PBXBuildFile; fileRef = 2A357C7726AD50D700CB7ABF /* lundini 04:05:2021.shazamsignature */; };
+		2A357C7B26AD50D800CB7ABF /* lundini 11:05:2021.shazamsignature in Resources */ = {isa = PBXBuildFile; fileRef = 2A357C7826AD50D800CB7ABF /* lundini 11:05:2021.shazamsignature */; };
+		2A357C7C26AD50D800CB7ABF /* lundini 01-06-2021.shazamsignature in Resources */ = {isa = PBXBuildFile; fileRef = 2A357C7926AD50D800CB7ABF /* lundini 01-06-2021.shazamsignature */; };
+		2A72E55E26AD60E400E855B4 /* EpisodeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72E55D26AD60E400E855B4 /* EpisodeData.swift */; };
+		2A72E56026AD662C00E855B4 /* VideoDetectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72E55F26AD662C00E855B4 /* VideoDetectionHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		2A357C5F26AD504600CB7ABF /* TVidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVidTests.swift; sourceTree = "<group>"; };
 		2A357C6526AD504600CB7ABF /* TVidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A357C6926AD504600CB7ABF /* TVidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVidUITests.swift; sourceTree = "<group>"; };
+		2A357C7726AD50D700CB7ABF /* lundini 04:05:2021.shazamsignature */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lundini 04:05:2021.shazamsignature"; sourceTree = "<group>"; };
+		2A357C7826AD50D800CB7ABF /* lundini 11:05:2021.shazamsignature */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lundini 11:05:2021.shazamsignature"; sourceTree = "<group>"; };
+		2A357C7926AD50D800CB7ABF /* lundini 01-06-2021.shazamsignature */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lundini 01-06-2021.shazamsignature"; sourceTree = "<group>"; };
+		2A72E55D26AD60E400E855B4 /* EpisodeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeData.swift; sourceTree = "<group>"; };
+		2A72E55F26AD662C00E855B4 /* VideoDetectionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetectionHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,7 @@
 		2A357C3C26AD504100CB7ABF = {
 			isa = PBXGroup;
 			children = (
+				2A357C7626AD50BD00CB7ABF /* Signatures */,
 				2A357C4726AD504200CB7ABF /* TVid */,
 				2A357C5E26AD504600CB7ABF /* TVidTests */,
 				2A357C6826AD504600CB7ABF /* TVidUITests */,
@@ -100,6 +111,8 @@
 				2A357C4826AD504200CB7ABF /* AppDelegate.swift */,
 				2A357C4A26AD504200CB7ABF /* SceneDelegate.swift */,
 				2A357C4C26AD504200CB7ABF /* ViewController.swift */,
+				2A72E55D26AD60E400E855B4 /* EpisodeData.swift */,
+				2A72E55F26AD662C00E855B4 /* VideoDetectionHandler.swift */,
 				2A357C4E26AD504200CB7ABF /* Main.storyboard */,
 				2A357C5126AD504500CB7ABF /* Assets.xcassets */,
 				2A357C5326AD504500CB7ABF /* LaunchScreen.storyboard */,
@@ -122,6 +135,16 @@
 				2A357C6926AD504600CB7ABF /* TVidUITests.swift */,
 			);
 			path = TVidUITests;
+			sourceTree = "<group>";
+		};
+		2A357C7626AD50BD00CB7ABF /* Signatures */ = {
+			isa = PBXGroup;
+			children = (
+				2A357C7926AD50D800CB7ABF /* lundini 01-06-2021.shazamsignature */,
+				2A357C7726AD50D700CB7ABF /* lundini 04:05:2021.shazamsignature */,
+				2A357C7826AD50D800CB7ABF /* lundini 11:05:2021.shazamsignature */,
+			);
+			path = Signatures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +254,9 @@
 				2A357C5526AD504500CB7ABF /* LaunchScreen.storyboard in Resources */,
 				2A357C5226AD504500CB7ABF /* Assets.xcassets in Resources */,
 				2A357C5026AD504200CB7ABF /* Main.storyboard in Resources */,
+				2A357C7B26AD50D800CB7ABF /* lundini 11:05:2021.shazamsignature in Resources */,
+				2A357C7A26AD50D800CB7ABF /* lundini 04:05:2021.shazamsignature in Resources */,
+				2A357C7C26AD50D800CB7ABF /* lundini 01-06-2021.shazamsignature in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A72E56026AD662C00E855B4 /* VideoDetectionHandler.swift in Sources */,
 				2A357C4D26AD504200CB7ABF /* ViewController.swift in Sources */,
 				2A357C4926AD504200CB7ABF /* AppDelegate.swift in Sources */,
 				2A357C4B26AD504200CB7ABF /* SceneDelegate.swift in Sources */,
+				2A72E55E26AD60E400E855B4 /* EpisodeData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
