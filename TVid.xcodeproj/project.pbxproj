@@ -18,6 +18,10 @@
 		2A357C7A26AD50D800CB7ABF /* lundini 04:05:2021.shazamsignature in Resources */ = {isa = PBXBuildFile; fileRef = 2A357C7726AD50D700CB7ABF /* lundini 04:05:2021.shazamsignature */; };
 		2A357C7B26AD50D800CB7ABF /* lundini 11:05:2021.shazamsignature in Resources */ = {isa = PBXBuildFile; fileRef = 2A357C7826AD50D800CB7ABF /* lundini 11:05:2021.shazamsignature */; };
 		2A357C7C26AD50D800CB7ABF /* lundini 01-06-2021.shazamsignature in Resources */ = {isa = PBXBuildFile; fileRef = 2A357C7926AD50D800CB7ABF /* lundini 01-06-2021.shazamsignature */; };
+		2A45239126AF638D006D1F08 /* twinpeaks-s01e01.shazamsignature in Resources */ = {isa = PBXBuildFile; fileRef = 2A45238D26AF638D006D1F08 /* twinpeaks-s01e01.shazamsignature */; };
+		2A45239226AF638D006D1F08 /* chernobyl-s01e01.shazamsignature in Resources */ = {isa = PBXBuildFile; fileRef = 2A45238E26AF638D006D1F08 /* chernobyl-s01e01.shazamsignature */; };
+		2A45239326AF638D006D1F08 /* biglittlelies-s02e01.shazamsignature in Resources */ = {isa = PBXBuildFile; fileRef = 2A45238F26AF638D006D1F08 /* biglittlelies-s02e01.shazamsignature */; };
+		2A45239426AF638D006D1F08 /* theundoing-s01e01.shazamsignature in Resources */ = {isa = PBXBuildFile; fileRef = 2A45239026AF638D006D1F08 /* theundoing-s01e01.shazamsignature */; };
 		2A72E55E26AD60E400E855B4 /* EpisodeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72E55D26AD60E400E855B4 /* EpisodeData.swift */; };
 		2A72E56026AD662C00E855B4 /* VideoDetectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72E55F26AD662C00E855B4 /* VideoDetectionHandler.swift */; };
 /* End PBXBuildFile section */
@@ -55,6 +59,10 @@
 		2A357C7726AD50D700CB7ABF /* lundini 04:05:2021.shazamsignature */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lundini 04:05:2021.shazamsignature"; sourceTree = "<group>"; };
 		2A357C7826AD50D800CB7ABF /* lundini 11:05:2021.shazamsignature */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lundini 11:05:2021.shazamsignature"; sourceTree = "<group>"; };
 		2A357C7926AD50D800CB7ABF /* lundini 01-06-2021.shazamsignature */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lundini 01-06-2021.shazamsignature"; sourceTree = "<group>"; };
+		2A45238D26AF638D006D1F08 /* twinpeaks-s01e01.shazamsignature */ = {isa = PBXFileReference; lastKnownFileType = file; path = "twinpeaks-s01e01.shazamsignature"; sourceTree = "<group>"; };
+		2A45238E26AF638D006D1F08 /* chernobyl-s01e01.shazamsignature */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chernobyl-s01e01.shazamsignature"; sourceTree = "<group>"; };
+		2A45238F26AF638D006D1F08 /* biglittlelies-s02e01.shazamsignature */ = {isa = PBXFileReference; lastKnownFileType = file; path = "biglittlelies-s02e01.shazamsignature"; sourceTree = "<group>"; };
+		2A45239026AF638D006D1F08 /* theundoing-s01e01.shazamsignature */ = {isa = PBXFileReference; lastKnownFileType = file; path = "theundoing-s01e01.shazamsignature"; sourceTree = "<group>"; };
 		2A72E55D26AD60E400E855B4 /* EpisodeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeData.swift; sourceTree = "<group>"; };
 		2A72E55F26AD662C00E855B4 /* VideoDetectionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetectionHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +148,10 @@
 		2A357C7626AD50BD00CB7ABF /* Signatures */ = {
 			isa = PBXGroup;
 			children = (
+				2A45238F26AF638D006D1F08 /* biglittlelies-s02e01.shazamsignature */,
+				2A45238E26AF638D006D1F08 /* chernobyl-s01e01.shazamsignature */,
+				2A45239026AF638D006D1F08 /* theundoing-s01e01.shazamsignature */,
+				2A45238D26AF638D006D1F08 /* twinpeaks-s01e01.shazamsignature */,
 				2A357C7926AD50D800CB7ABF /* lundini 01-06-2021.shazamsignature */,
 				2A357C7726AD50D700CB7ABF /* lundini 04:05:2021.shazamsignature */,
 				2A357C7826AD50D800CB7ABF /* lundini 11:05:2021.shazamsignature */,
@@ -253,7 +265,11 @@
 			files = (
 				2A357C5526AD504500CB7ABF /* LaunchScreen.storyboard in Resources */,
 				2A357C5226AD504500CB7ABF /* Assets.xcassets in Resources */,
+				2A45239226AF638D006D1F08 /* chernobyl-s01e01.shazamsignature in Resources */,
+				2A45239426AF638D006D1F08 /* theundoing-s01e01.shazamsignature in Resources */,
+				2A45239126AF638D006D1F08 /* twinpeaks-s01e01.shazamsignature in Resources */,
 				2A357C5026AD504200CB7ABF /* Main.storyboard in Resources */,
+				2A45239326AF638D006D1F08 /* biglittlelies-s02e01.shazamsignature in Resources */,
 				2A357C7B26AD50D800CB7ABF /* lundini 11:05:2021.shazamsignature in Resources */,
 				2A357C7A26AD50D800CB7ABF /* lundini 04:05:2021.shazamsignature in Resources */,
 				2A357C7C26AD50D800CB7ABF /* lundini 01-06-2021.shazamsignature in Resources */,
