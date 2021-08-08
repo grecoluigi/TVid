@@ -65,6 +65,7 @@
 		2A45239026AF638D006D1F08 /* theundoing-s01e01.shazamsignature */ = {isa = PBXFileReference; lastKnownFileType = file; path = "theundoing-s01e01.shazamsignature"; sourceTree = "<group>"; };
 		2A72E55D26AD60E400E855B4 /* EpisodeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeData.swift; sourceTree = "<group>"; };
 		2A72E55F26AD662C00E855B4 /* VideoDetectionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetectionHandler.swift; sourceTree = "<group>"; };
+		2AFA67E826C068D90071D203 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		2A357C3C26AD504100CB7ABF = {
 			isa = PBXGroup;
 			children = (
+				2AFA67E826C068D90071D203 /* README.md */,
 				2A357C7626AD50BD00CB7ABF /* Signatures */,
 				2A357C4726AD504200CB7ABF /* TVid */,
 				2A357C5E26AD504600CB7ABF /* TVidTests */,
